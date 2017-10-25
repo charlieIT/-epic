@@ -12,6 +12,9 @@ body * {
 .orange {
   background-color:#CE7C3B !important;
 }
+.white-bg *{
+  color:black !important;
+}
 
 .orange h3, .orange h2,.orange h1,.orange p,.orange div,.orange i, .orange h4 {
   color:white !important;
@@ -46,9 +49,7 @@ body * {
   background-color: white !important;
 }
 
-.white-bg *{
-  color:black !important;
-}
+
 
 .robot {
   background-image:url('../res/img/robot_only.png');
@@ -115,4 +116,10 @@ img.img-icon{
   text-align: right;
   z-index:-10;
   width:50%;
+}
+
+.all {
+  background-image: url('../res/img/Thats_all.svg.png');
+  background-size: 100% 100%;
+   background-repeat: no-repeat;
 }

@@ -1,0 +1,118 @@
+body * {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 3px !important;
+}
+
+.reveal i{
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.orange {
+  background-color:#CE7C3B !important;
+}
+
+.orange h3, .orange h2,.orange h1,.orange p,.orange div,.orange i, .orange h4 {
+  color:white !important;
+}
+
+.orange-lt {
+  color:#CE7C3B !important;
+}
+
+.grey-bg {
+  background-color: #666666 !important;
+}
+
+.blue-bg {
+  background-color:rgb(47, 52, 117) !important;
+  color: white !important;
+}
+.blue-bg p, .blue-bg section, .blue-bg
+, .blue-bg div, .blue-bg h1, .blue-bg h2,
+.blue-bg h3, .blue-bg blockquote, .blue-bg h4 {
+  color: white !important;
+}
+.my-green {
+  background-color:rgb(77, 126, 101) !important;
+}
+.my-green p, .my-green section, .my-green
+, .my-green div, .my-green h1, .my-green h2,
+.my-green h3, .my-green blockquote, .my-green h4 {
+  color: white !important;
+}
+.white-bg {
+  background-color: white !important;
+}
+
+.white-bg *{
+  color:black !important;
+}
+
+.robot {
+  background-image:url('../res/img/robot_only.png');
+  width:640px;
+  height:1000px;
+  z-index: 2;
+}
+
+blockquote {
+  background:none !important;
+  /*
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+  */
+  box-shadow: none !important;
+}
+blockquote:after
+{
+  content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 25%;
+	width: 50%;
+	border-bottom: 1px solid white;
+}
+
+label.small-label {
+  font-size: 10pt;
+  color: white;
+}
+
+.brand {
+  width:100% !important;
+  height:auto !important;
+  /*max-height:240px !important;*/
+}
+img.brand{
+  border: 1px solid #CE7C3B !important;
+}
+
+.img-icon {
+  margin: none !important;
+}
+img.img-icon{
+  border: none !important;
+  background:transparent !important;
+  padding-top:20px;
+  box-shadow: none !important;
+
+}
+
+.left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+.right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
